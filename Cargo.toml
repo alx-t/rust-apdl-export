@@ -1,0 +1,10 @@
+[package]
+name = "apdl"
+version = "0.1.0"
+authors = ["Alex Tesevich <alex.tesevich@gmail.com>"]
+
+[dependencies]
+time = "*"
+
+[profile.release]
+debug = true
